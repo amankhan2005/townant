@@ -1,0 +1,22 @@
+{
+  "name": "townant",
+  "private": true,
+  "description": "TownAnt \u2014 global marketplace for local services (customer app, public web, vendor portal, Super Admin console).",
+  "workspaces": [
+    "packages/*",
+    "apps/api",
+    "apps/web"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev:api": "npm run dev -w @townant/api",
+    "dev:web": "npm run dev -w @townant/web",
+    "test": "node scripts/check-date-format.mjs && npm test -w @townant/shared && npm test -w @townant/web && npm test -w @townant/api",
+    "lint": "npm run lint --workspaces --if-present",
+    "build": "npm run build -w @townant/web",
+    "audit:prod": "npm audit --omit=dev",
+    "check:dates": "node scripts/check-date-format.mjs"
+  }
+}

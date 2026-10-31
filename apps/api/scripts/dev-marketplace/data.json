@@ -1,0 +1,1612 @@
+{
+ "categories": [
+  {
+   "name": "Home Cleaning",
+   "slug": "home-cleaning",
+   "icon": "sparkles",
+   "description": "Regular, deep and move-out cleaning for houses and apartments.",
+   "sortOrder": 0
+  },
+  {
+   "name": "Plumbing",
+   "slug": "plumbing",
+   "icon": "wrench",
+   "description": "Leaks, taps, drains, water heaters and bathroom plumbing.",
+   "sortOrder": 10
+  },
+  {
+   "name": "Electrical Services",
+   "slug": "electrical-services",
+   "icon": "wrench",
+   "description": "Licensed electricians for lighting, outlets, panels and safety checks.",
+   "sortOrder": 20
+  },
+  {
+   "name": "Beauty & Salon",
+   "slug": "beauty-salon",
+   "icon": "scissors",
+   "description": "Haircuts, colour, styling, barbering and nail care.",
+   "sortOrder": 30
+  },
+  {
+   "name": "Massage & Wellness",
+   "slug": "massage-wellness",
+   "icon": "heart-pulse",
+   "description": "Relaxation and therapeutic massage, stretching and recovery sessions.",
+   "sortOrder": 40
+  },
+  {
+   "name": "Photography",
+   "slug": "photography",
+   "icon": "party",
+   "description": "Portraits, events, family sessions and product photography.",
+   "sortOrder": 50
+  },
+  {
+   "name": "HVAC Services",
+   "slug": "hvac-services",
+   "icon": "home",
+   "description": "Air conditioning and heating repair, servicing and installation.",
+   "sortOrder": 60
+  },
+  {
+   "name": "Lawn & Garden",
+   "slug": "lawn-garden",
+   "icon": "home",
+   "description": "Lawn mowing, garden care, planting and seasonal clean-ups.",
+   "sortOrder": 70
+  },
+  {
+   "name": "Handyman Services",
+   "slug": "handyman-services",
+   "icon": "wrench",
+   "description": "Small repairs, assembly, mounting and odd jobs around the home.",
+   "sortOrder": 80
+  },
+  {
+   "name": "Moving Services",
+   "slug": "moving-services",
+   "icon": "car",
+   "description": "Local moves, packing help and furniture delivery.",
+   "sortOrder": 90
+  }
+ ],
+ "vendors": [
+  {
+   "n": 1,
+   "name": "Austin Fresh Home Cleaning",
+   "category": "home-cleaning",
+   "city": "Austin",
+   "region": "TX",
+   "country": "US",
+   "area": "Clarksville",
+   "line1": "137 Cedar Row",
+   "postalCode": "78702",
+   "lat": 30.2908,
+   "lng": -97.7689,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 40,
+    "postalCodes": [
+     "78701",
+     "78702",
+     "78703",
+     "78704",
+     "78705"
+    ]
+   },
+   "ownerEmail": "austin-fresh-home-cleaning@vendors.townant.test",
+   "contactEmail": "hello@austin-fresh-home-cleaning.townant.test",
+   "phone": "+1 512 555 0101",
+   "summary": "Two-person cleaning teams serving central Austin homes and apartments",
+   "description": "Two-person cleaning teams serving central Austin homes and apartments, with eco-friendly products and a checklist for every visit.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Standard Home Cleaning",
+     "durationMinutes": 120,
+     "price": {
+      "display": "from",
+      "amount": 120,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Dusting, vacuuming, mopping, kitchen surfaces and bathrooms for a typical 2-bedroom home."
+    },
+    {
+     "title": "Deep Cleaning",
+     "durationMinutes": 240,
+     "price": {
+      "display": "from",
+      "amount": 260,
+      "currency": "USD"
+     },
+     "bookingMode": "request",
+     "description": "Top-to-bottom clean including baseboards, inside appliances and hard-to-reach areas."
+    },
+    {
+     "title": "Kitchen Cleaning",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 75,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Counters, cabinets fronts, sink, stovetop and appliance exteriors."
+    },
+    {
+     "title": "Move-out Cleaning",
+     "durationMinutes": 240,
+     "price": {
+      "display": "quote"
+     },
+     "bookingMode": "request",
+     "description": "Empty-home clean for handover. Price depends on size and condition."
+    }
+   ],
+   "ownerName": "Austin Owner (dev)"
+  },
+  {
+   "n": 2,
+   "name": "Sparkle & Shine Cleaning",
+   "category": "home-cleaning",
+   "city": "Dallas",
+   "region": "TX",
+   "country": "US",
+   "area": "Uptown",
+   "line1": "174 Maple Court",
+   "postalCode": "75204",
+   "lat": 32.7269,
+   "lng": -96.7926,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 35,
+    "postalCodes": [
+     "75201",
+     "75202",
+     "75204",
+     "75206",
+     "75219"
+    ]
+   },
+   "ownerEmail": "sparkle-shine-cleaning@vendors.townant.test",
+   "contactEmail": "hello@sparkle-shine-cleaning.townant.test",
+   "phone": "+1 214 555 0102",
+   "summary": "Friendly, insured cleaners for busy Dallas households",
+   "description": "Friendly, insured cleaners for busy Dallas households \u2014 weekly, fortnightly or one-off visits.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Standard Home Cleaning",
+     "durationMinutes": 120,
+     "price": {
+      "display": "from",
+      "amount": 120,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Dusting, vacuuming, mopping, kitchen surfaces and bathrooms for a typical 2-bedroom home."
+    },
+    {
+     "title": "Deep Cleaning",
+     "durationMinutes": 240,
+     "price": {
+      "display": "from",
+      "amount": 260,
+      "currency": "USD"
+     },
+     "bookingMode": "request",
+     "description": "Top-to-bottom clean including baseboards, inside appliances and hard-to-reach areas."
+    },
+    {
+     "title": "Kitchen Cleaning",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 75,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Counters, cabinets fronts, sink, stovetop and appliance exteriors."
+    }
+   ],
+   "ownerName": "Sparkle Owner (dev)"
+  },
+  {
+   "n": 3,
+   "name": "Premium Home Care",
+   "category": "home-cleaning",
+   "city": "Austin",
+   "region": "TX",
+   "country": "US",
+   "area": "East Austin",
+   "line1": "211 Willow Lane",
+   "postalCode": "78704",
+   "lat": 30.3188,
+   "lng": -97.7036,
+   "serviceMode": "both",
+   "serviceArea": {
+    "radiusKm": 30,
+    "postalCodes": [
+     "78701",
+     "78702",
+     "78703",
+     "78704",
+     "78705"
+    ]
+   },
+   "ownerEmail": "premium-home-care@vendors.townant.test",
+   "contactEmail": "hello@premium-home-care.townant.test",
+   "phone": "+1 512 555 0103",
+   "summary": "Detail-focused home cleaning and move-out cleans for Austin renters, owners and property managers.",
+   "description": "Detail-focused home cleaning and move-out cleans for Austin renters, owners and property managers.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Standard Home Cleaning",
+     "durationMinutes": 120,
+     "price": {
+      "display": "from",
+      "amount": 120,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Dusting, vacuuming, mopping, kitchen surfaces and bathrooms for a typical 2-bedroom home."
+    },
+    {
+     "title": "Deep Cleaning",
+     "durationMinutes": 240,
+     "price": {
+      "display": "from",
+      "amount": 260,
+      "currency": "USD"
+     },
+     "bookingMode": "request",
+     "description": "Top-to-bottom clean including baseboards, inside appliances and hard-to-reach areas."
+    },
+    {
+     "title": "Move-out Cleaning",
+     "durationMinutes": 240,
+     "price": {
+      "display": "quote"
+     },
+     "bookingMode": "request",
+     "description": "Empty-home clean for handover. Price depends on size and condition."
+    }
+   ],
+   "ownerName": "Premium Owner (dev)"
+  },
+  {
+   "n": 4,
+   "name": "Austin Pro Plumbing",
+   "category": "plumbing",
+   "city": "Austin",
+   "region": "TX",
+   "country": "US",
+   "area": "Downtown",
+   "line1": "248 Harbor Street",
+   "postalCode": "78705",
+   "lat": 30.2637,
+   "lng": -97.7628,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 50,
+    "postalCodes": [
+     "78701",
+     "78702",
+     "78703",
+     "78704",
+     "78705"
+    ]
+   },
+   "ownerEmail": "austin-pro-plumbing@vendors.townant.test",
+   "contactEmail": "hello@austin-pro-plumbing.townant.test",
+   "phone": "+1 512 555 0104",
+   "summary": "Licensed plumbers for leaks, fixtures and water heaters across Austin",
+   "description": "Licensed plumbers for leaks, fixtures and water heaters across Austin, with upfront pricing on common jobs.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Tap Repair",
+     "durationMinutes": 30,
+     "price": {
+      "display": "fixed",
+      "amount": 85,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Fix a dripping or stiff faucet, including washer and cartridge replacement."
+    },
+    {
+     "title": "Pipe Leakage Repair",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 140,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Find and repair a visible leak under sinks or along exposed pipes."
+    },
+    {
+     "title": "Bathroom Plumbing Inspection",
+     "durationMinutes": 45,
+     "price": {
+      "display": "fixed",
+      "amount": 95,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Check fixtures, drains, water pressure and visible pipework; written summary included."
+    },
+    {
+     "title": "Water Heater Service",
+     "durationMinutes": 90,
+     "price": {
+      "display": "quote"
+     },
+     "bookingMode": "request",
+     "description": "Flush, inspect and service tank or tankless water heaters."
+    }
+   ],
+   "ownerName": "Austin Owner (dev)"
+  },
+  {
+   "n": 5,
+   "name": "RapidFix Plumbing",
+   "category": "plumbing",
+   "city": "Dallas",
+   "region": "TX",
+   "country": "US",
+   "area": "Deep Ellum",
+   "line1": "285 Station Road",
+   "postalCode": "75201",
+   "lat": 32.7579,
+   "lng": -96.7675,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 45,
+    "postalCodes": [
+     "75201",
+     "75202",
+     "75204",
+     "75206",
+     "75219"
+    ]
+   },
+   "ownerEmail": "rapidfix-plumbing@vendors.townant.test",
+   "contactEmail": "hello@rapidfix-plumbing.townant.test",
+   "phone": "+1 214 555 0105",
+   "summary": "Same-week plumbing repairs in Dallas",
+   "description": "Same-week plumbing repairs in Dallas \u2014 taps, leaks and bathroom fixtures.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Tap Repair",
+     "durationMinutes": 30,
+     "price": {
+      "display": "fixed",
+      "amount": 85,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Fix a dripping or stiff faucet, including washer and cartridge replacement."
+    },
+    {
+     "title": "Pipe Leakage Repair",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 140,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Find and repair a visible leak under sinks or along exposed pipes."
+    },
+    {
+     "title": "Bathroom Plumbing Inspection",
+     "durationMinutes": 45,
+     "price": {
+      "display": "fixed",
+      "amount": 95,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Check fixtures, drains, water pressure and visible pipework; written summary included."
+    }
+   ],
+   "ownerName": "RapidFix Owner (dev)"
+  },
+  {
+   "n": 6,
+   "name": "BlueWave Plumbing Services",
+   "category": "plumbing",
+   "city": "Chicago",
+   "region": "IL",
+   "country": "US",
+   "area": "West Loop",
+   "line1": "322 Garden Walk",
+   "postalCode": "60602",
+   "lat": 41.9264,
+   "lng": -87.6428,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 40,
+    "postalCodes": [
+     "60601",
+     "60602",
+     "60605",
+     "60607",
+     "60614"
+    ]
+   },
+   "ownerEmail": "bluewave-plumbing-services@vendors.townant.test",
+   "contactEmail": "hello@bluewave-plumbing-services.townant.test",
+   "phone": "+1 312 555 0106",
+   "summary": "Chicago plumbing team for condos and houses, specialising in older pipework.",
+   "description": "Chicago plumbing team for condos and houses, specialising in older pipework.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Tap Repair",
+     "durationMinutes": 30,
+     "price": {
+      "display": "fixed",
+      "amount": 85,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Fix a dripping or stiff faucet, including washer and cartridge replacement."
+    },
+    {
+     "title": "Pipe Leakage Repair",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 140,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Find and repair a visible leak under sinks or along exposed pipes."
+    },
+    {
+     "title": "Water Heater Service",
+     "durationMinutes": 90,
+     "price": {
+      "display": "quote"
+     },
+     "bookingMode": "request",
+     "description": "Flush, inspect and service tank or tankless water heaters."
+    }
+   ],
+   "ownerName": "BlueWave Owner (dev)"
+  },
+  {
+   "n": 7,
+   "name": "Austin Electrical Experts",
+   "category": "electrical-services",
+   "city": "Austin",
+   "region": "TX",
+   "country": "US",
+   "area": "South Lamar",
+   "line1": "359 Mill Street",
+   "postalCode": "78703",
+   "lat": 30.2095,
+   "lng": -97.7731,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 45,
+    "postalCodes": [
+     "78701",
+     "78702",
+     "78703",
+     "78704",
+     "78705"
+    ]
+   },
+   "ownerEmail": "austin-electrical-experts@vendors.townant.test",
+   "contactEmail": "hello@austin-electrical-experts.townant.test",
+   "phone": "+1 512 555 0107",
+   "summary": "Residential electricians handling repairs, lighting upgrades and EV chargers in Austin.",
+   "description": "Residential electricians handling repairs, lighting upgrades and EV chargers in Austin.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Outlet & Switch Repair",
+     "durationMinutes": 45,
+     "price": {
+      "display": "fixed",
+      "amount": 90,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Replace or repair faulty outlets, switches and dimmers."
+    },
+    {
+     "title": "Light Fixture Installation",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 110,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Install ceiling lights, pendants or fans on an existing circuit."
+    },
+    {
+     "title": "Home Electrical Safety Check",
+     "durationMinutes": 90,
+     "price": {
+      "display": "fixed",
+      "amount": 160,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Panel, outlet and wiring safety inspection with a written report."
+    },
+    {
+     "title": "EV Charger Installation",
+     "durationMinutes": 180,
+     "price": {
+      "display": "quote"
+     },
+     "bookingMode": "request",
+     "description": "Level 2 charger installation; quote after a site check."
+    }
+   ],
+   "ownerName": "Austin Owner (dev)"
+  },
+  {
+   "n": 8,
+   "name": "BrightWire Services",
+   "category": "electrical-services",
+   "city": "Dallas",
+   "region": "TX",
+   "country": "US",
+   "area": "Oak Lawn",
+   "line1": "396 Market Way",
+   "postalCode": "75206",
+   "lat": 32.7836,
+   "lng": -96.7782,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 40,
+    "postalCodes": [
+     "75201",
+     "75202",
+     "75204",
+     "75206",
+     "75219"
+    ]
+   },
+   "ownerEmail": "brightwire-services@vendors.townant.test",
+   "contactEmail": "hello@brightwire-services.townant.test",
+   "phone": "+1 214 555 0108",
+   "summary": "Careful, tidy electrical work for Dallas homes",
+   "description": "Careful, tidy electrical work for Dallas homes \u2014 from a single outlet to a full safety check.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Outlet & Switch Repair",
+     "durationMinutes": 45,
+     "price": {
+      "display": "fixed",
+      "amount": 90,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Replace or repair faulty outlets, switches and dimmers."
+    },
+    {
+     "title": "Light Fixture Installation",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 110,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Install ceiling lights, pendants or fans on an existing circuit."
+    },
+    {
+     "title": "Home Electrical Safety Check",
+     "durationMinutes": 90,
+     "price": {
+      "display": "fixed",
+      "amount": 160,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Panel, outlet and wiring safety inspection with a written report."
+    }
+   ],
+   "ownerName": "BrightWire Owner (dev)"
+  },
+  {
+   "n": 9,
+   "name": "Velvet Rose Salon",
+   "category": "beauty-salon",
+   "city": "Austin",
+   "region": "TX",
+   "country": "US",
+   "area": "South Congress",
+   "line1": "433 Cedar Row",
+   "postalCode": "78705",
+   "lat": 30.2806,
+   "lng": -97.7755,
+   "serviceMode": "fixed",
+   "serviceArea": null,
+   "ownerEmail": "velvet-rose-salon@vendors.townant.test",
+   "contactEmail": "hello@velvet-rose-salon.townant.test",
+   "phone": "+1 512 555 0109",
+   "summary": "Boutique salon for cuts, colour and styling in a relaxed studio.",
+   "description": "Boutique salon for cuts, colour and styling in a relaxed studio.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Women's Haircut & Style",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 65,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Consultation, wash, cut and blow-dry."
+    },
+    {
+     "title": "Men's Haircut",
+     "durationMinutes": 30,
+     "price": {
+      "display": "fixed",
+      "amount": 35,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Clipper or scissor cut with a hot-towel finish."
+    },
+    {
+     "title": "Full Colour",
+     "durationMinutes": 120,
+     "price": {
+      "display": "from",
+      "amount": 140,
+      "currency": "USD"
+     },
+     "bookingMode": "request",
+     "description": "Single-process colour with toner and style."
+    }
+   ],
+   "ownerName": "Velvet Owner (dev)"
+  },
+  {
+   "n": 10,
+   "name": "Urban Edge Barbers",
+   "category": "beauty-salon",
+   "city": "Chicago",
+   "region": "IL",
+   "country": "US",
+   "area": "Wicker Park",
+   "line1": "470 Maple Court",
+   "postalCode": "60601",
+   "lat": 41.8328,
+   "lng": -87.6086,
+   "serviceMode": "fixed",
+   "serviceArea": null,
+   "ownerEmail": "urban-edge-barbers@vendors.townant.test",
+   "contactEmail": "hello@urban-edge-barbers.townant.test",
+   "phone": "+1 312 555 0110",
+   "summary": "Classic and modern barbering with hot-towel finishes.",
+   "description": "Classic and modern barbering with hot-towel finishes.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Men's Haircut",
+     "durationMinutes": 30,
+     "price": {
+      "display": "fixed",
+      "amount": 35,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Clipper or scissor cut with a hot-towel finish."
+    },
+    {
+     "title": "Women's Haircut & Style",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 65,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Consultation, wash, cut and blow-dry."
+    }
+   ],
+   "ownerName": "Urban Owner (dev)"
+  },
+  {
+   "n": 11,
+   "name": "Glow Nail Studio",
+   "category": "beauty-salon",
+   "city": "Dallas",
+   "region": "TX",
+   "country": "US",
+   "area": "Bishop Arts",
+   "line1": "507 Willow Lane",
+   "postalCode": "75202",
+   "lat": 32.8387,
+   "lng": -96.7775,
+   "serviceMode": "fixed",
+   "serviceArea": null,
+   "ownerEmail": "glow-nail-studio@vendors.townant.test",
+   "contactEmail": "hello@glow-nail-studio.townant.test",
+   "phone": "+1 214 555 0111",
+   "summary": "Nail studio for gel manicures and quick appointments.",
+   "description": "Nail studio for gel manicures and quick appointments.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Gel Manicure",
+     "durationMinutes": 45,
+     "price": {
+      "display": "fixed",
+      "amount": 45,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Shaping, cuticle care and long-wear gel polish."
+    },
+    {
+     "title": "Women's Haircut & Style",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 65,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Consultation, wash, cut and blow-dry."
+    }
+   ],
+   "ownerName": "Glow Owner (dev)"
+  },
+  {
+   "n": 12,
+   "name": "Serenity Touch Massage",
+   "category": "massage-wellness",
+   "city": "Austin",
+   "region": "TX",
+   "country": "US",
+   "area": "Mueller",
+   "line1": "544 Harbor Street",
+   "postalCode": "78703",
+   "lat": 30.2572,
+   "lng": -97.7604,
+   "serviceMode": "fixed",
+   "serviceArea": null,
+   "ownerEmail": "serenity-touch-massage@vendors.townant.test",
+   "contactEmail": "hello@serenity-touch-massage.townant.test",
+   "phone": "+1 512 555 0112",
+   "summary": "Calm, private massage rooms with experienced therapists.",
+   "description": "Calm, private massage rooms with experienced therapists.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Swedish Massage (60 min)",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 95,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Relaxing full-body massage with medium pressure."
+    },
+    {
+     "title": "Deep Tissue Massage (90 min)",
+     "durationMinutes": 90,
+     "price": {
+      "display": "fixed",
+      "amount": 140,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Focused work on tight muscles and knots."
+    },
+    {
+     "title": "Assisted Stretch Session",
+     "durationMinutes": 45,
+     "price": {
+      "display": "fixed",
+      "amount": 70,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Guided stretching to improve mobility and recovery."
+    }
+   ],
+   "ownerName": "Serenity Owner (dev)"
+  },
+  {
+   "n": 13,
+   "name": "Lakeshore Wellness Studio",
+   "category": "massage-wellness",
+   "city": "Chicago",
+   "region": "IL",
+   "country": "US",
+   "area": "Lincoln Park",
+   "line1": "581 Station Road",
+   "postalCode": "60607",
+   "lat": 41.8706,
+   "lng": -87.5956,
+   "serviceMode": "fixed",
+   "serviceArea": null,
+   "ownerEmail": "lakeshore-wellness-studio@vendors.townant.test",
+   "contactEmail": "hello@lakeshore-wellness-studio.townant.test",
+   "phone": "+1 312 555 0113",
+   "summary": "Massage and assisted stretching for recovery and stress relief.",
+   "description": "Massage and assisted stretching for recovery and stress relief.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Swedish Massage (60 min)",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 95,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Relaxing full-body massage with medium pressure."
+    },
+    {
+     "title": "Assisted Stretch Session",
+     "durationMinutes": 45,
+     "price": {
+      "display": "fixed",
+      "amount": 70,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Guided stretching to improve mobility and recovery."
+    }
+   ],
+   "ownerName": "Lakeshore Owner (dev)"
+  },
+  {
+   "n": 14,
+   "name": "Golden Hour Photography",
+   "category": "photography",
+   "city": "Austin",
+   "region": "TX",
+   "country": "US",
+   "area": "Zilker",
+   "line1": "618 Garden Walk",
+   "postalCode": "78705",
+   "lat": 30.3081,
+   "lng": -97.7719,
+   "serviceMode": "both",
+   "serviceArea": {
+    "radiusKm": 60,
+    "postalCodes": [
+     "78701",
+     "78702",
+     "78703",
+     "78704",
+     "78705"
+    ]
+   },
+   "ownerEmail": "golden-hour-photography@vendors.townant.test",
+   "contactEmail": "hello@golden-hour-photography.townant.test",
+   "phone": "+1 512 555 0114",
+   "summary": "Natural-light portraits and family photos around Austin's parks and neighbourhoods.",
+   "description": "Natural-light portraits and family photos around Austin's parks and neighbourhoods.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Portrait Session",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 180,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "One-hour portrait session with 15 edited photos."
+    },
+    {
+     "title": "Family Photo Session",
+     "durationMinutes": 90,
+     "price": {
+      "display": "from",
+      "amount": 260,
+      "currency": "USD"
+     },
+     "bookingMode": "request",
+     "description": "Outdoor or in-home family photos with 30 edited images."
+    },
+    {
+     "title": "Event Coverage",
+     "durationMinutes": 240,
+     "price": {
+      "display": "quote"
+     },
+     "bookingMode": "request",
+     "description": "Birthday, corporate or community event photography."
+    }
+   ],
+   "ownerName": "Golden Owner (dev)"
+  },
+  {
+   "n": 15,
+   "name": "Windy City Portraits",
+   "category": "photography",
+   "city": "Chicago",
+   "region": "IL",
+   "country": "US",
+   "area": "River North",
+   "line1": "655 Mill Street",
+   "postalCode": "60601",
+   "lat": 41.8136,
+   "lng": -87.6382,
+   "serviceMode": "both",
+   "serviceArea": {
+    "radiusKm": 50,
+    "postalCodes": [
+     "60601",
+     "60602",
+     "60605",
+     "60607",
+     "60614"
+    ]
+   },
+   "ownerEmail": "windy-city-portraits@vendors.townant.test",
+   "contactEmail": "hello@windy-city-portraits.townant.test",
+   "phone": "+1 312 555 0115",
+   "summary": "Studio and on-location portraits and event photography in Chicago.",
+   "description": "Studio and on-location portraits and event photography in Chicago.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Portrait Session",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 180,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "One-hour portrait session with 15 edited photos."
+    },
+    {
+     "title": "Event Coverage",
+     "durationMinutes": 240,
+     "price": {
+      "display": "quote"
+     },
+     "bookingMode": "request",
+     "description": "Birthday, corporate or community event photography."
+    }
+   ],
+   "ownerName": "Windy Owner (dev)"
+  },
+  {
+   "n": 16,
+   "name": "CoolBreeze HVAC",
+   "category": "hvac-services",
+   "city": "Austin",
+   "region": "TX",
+   "country": "US",
+   "area": "North Loop",
+   "line1": "692 Market Way",
+   "postalCode": "78702",
+   "lat": 30.2801,
+   "lng": -97.7278,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 60,
+    "postalCodes": [
+     "78701",
+     "78702",
+     "78703",
+     "78704",
+     "78705"
+    ]
+   },
+   "ownerEmail": "coolbreeze-hvac@vendors.townant.test",
+   "contactEmail": "hello@coolbreeze-hvac.townant.test",
+   "phone": "+1 512 555 0116",
+   "summary": "Heating and cooling servicing, repairs and replacement advice for Austin homes.",
+   "description": "Heating and cooling servicing, repairs and replacement advice for Austin homes.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "AC Tune-up",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 99,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Clean coils, check refrigerant and test the system before summer."
+    },
+    {
+     "title": "Heating System Check",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 99,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Furnace or heat pump inspection and safety test."
+    },
+    {
+     "title": "AC Repair Visit",
+     "durationMinutes": 90,
+     "price": {
+      "display": "from",
+      "amount": 150,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Diagnose and repair cooling problems; parts quoted separately."
+    },
+    {
+     "title": "New System Consultation",
+     "durationMinutes": 60,
+     "price": {
+      "display": "quote"
+     },
+     "bookingMode": "request",
+     "description": "Sizing and options for a replacement system."
+    }
+   ],
+   "ownerName": "CoolBreeze Owner (dev)"
+  },
+  {
+   "n": 17,
+   "name": "Lone Star Heating & Air",
+   "category": "hvac-services",
+   "city": "Dallas",
+   "region": "TX",
+   "country": "US",
+   "area": "Lakewood",
+   "line1": "729 Cedar Row",
+   "postalCode": "75204",
+   "lat": 32.7781,
+   "lng": -96.832,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 55,
+    "postalCodes": [
+     "75201",
+     "75202",
+     "75204",
+     "75206",
+     "75219"
+    ]
+   },
+   "ownerEmail": "lone-star-heating-air@vendors.townant.test",
+   "contactEmail": "hello@lone-star-heating-air.townant.test",
+   "phone": "+1 214 555 0117",
+   "summary": "Dallas HVAC technicians for tune-ups and repairs",
+   "description": "Dallas HVAC technicians for tune-ups and repairs, with clear visit pricing.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "AC Tune-up",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 99,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Clean coils, check refrigerant and test the system before summer."
+    },
+    {
+     "title": "Heating System Check",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 99,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Furnace or heat pump inspection and safety test."
+    },
+    {
+     "title": "AC Repair Visit",
+     "durationMinutes": 90,
+     "price": {
+      "display": "from",
+      "amount": 150,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Diagnose and repair cooling problems; parts quoted separately."
+    }
+   ],
+   "ownerName": "Lone Owner (dev)"
+  },
+  {
+   "n": 18,
+   "name": "GreenThumb Lawn Care",
+   "category": "lawn-garden",
+   "city": "Austin",
+   "region": "TX",
+   "country": "US",
+   "area": "Hyde Park",
+   "line1": "766 Maple Court",
+   "postalCode": "78704",
+   "lat": 30.2319,
+   "lng": -97.7077,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 35,
+    "postalCodes": [
+     "78701",
+     "78702",
+     "78703",
+     "78704",
+     "78705"
+    ]
+   },
+   "ownerEmail": "greenthumb-lawn-care@vendors.townant.test",
+   "contactEmail": "hello@greenthumb-lawn-care.townant.test",
+   "phone": "+1 512 555 0118",
+   "summary": "Lawn and garden care for Austin yards",
+   "description": "Lawn and garden care for Austin yards \u2014 regular mowing or one-off clean-ups.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Lawn Mowing",
+     "durationMinutes": 45,
+     "price": {
+      "display": "from",
+      "amount": 45,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Mow, edge and blow clippings for a standard yard."
+    },
+    {
+     "title": "Garden Clean-up",
+     "durationMinutes": 120,
+     "price": {
+      "display": "from",
+      "amount": 150,
+      "currency": "USD"
+     },
+     "bookingMode": "request",
+     "description": "Weeding, pruning and green-waste removal."
+    },
+    {
+     "title": "Hedge Trimming",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 80,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Shape and trim hedges and shrubs up to 8 ft."
+    }
+   ],
+   "ownerName": "GreenThumb Owner (dev)"
+  },
+  {
+   "n": 19,
+   "name": "Prairie Garden Co.",
+   "category": "lawn-garden",
+   "city": "Dallas",
+   "region": "TX",
+   "country": "US",
+   "area": "Lower Greenville",
+   "line1": "803 Willow Lane",
+   "postalCode": "75219",
+   "lat": 32.8416,
+   "lng": -96.8,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 35,
+    "postalCodes": [
+     "75201",
+     "75202",
+     "75204",
+     "75206",
+     "75219"
+    ]
+   },
+   "ownerEmail": "prairie-garden-co@vendors.townant.test",
+   "contactEmail": "hello@prairie-garden-co.townant.test",
+   "phone": "+1 214 555 0119",
+   "summary": "Hedges, beds and lawns kept neat across Dallas neighbourhoods.",
+   "description": "Hedges, beds and lawns kept neat across Dallas neighbourhoods.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Lawn Mowing",
+     "durationMinutes": 45,
+     "price": {
+      "display": "from",
+      "amount": 45,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Mow, edge and blow clippings for a standard yard."
+    },
+    {
+     "title": "Hedge Trimming",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 80,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Shape and trim hedges and shrubs up to 8 ft."
+    }
+   ],
+   "ownerName": "Prairie Owner (dev)"
+  },
+  {
+   "n": 20,
+   "name": "FixIt Right Handyman",
+   "category": "handyman-services",
+   "city": "Austin",
+   "region": "TX",
+   "country": "US",
+   "area": "Travis Heights",
+   "line1": "840 Harbor Street",
+   "postalCode": "78701",
+   "lat": 30.2518,
+   "lng": -97.7559,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 40,
+    "postalCodes": [
+     "78701",
+     "78702",
+     "78703",
+     "78704",
+     "78705"
+    ]
+   },
+   "ownerEmail": "fixit-right-handyman@vendors.townant.test",
+   "contactEmail": "hello@fixit-right-handyman.townant.test",
+   "phone": "+1 512 555 0120",
+   "summary": "Reliable handyman for assembly, mounting and small repairs in Austin.",
+   "description": "Reliable handyman for assembly, mounting and small repairs in Austin.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Furniture Assembly",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 70,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Assembly of flat-pack furniture such as beds, desks and shelving."
+    },
+    {
+     "title": "TV & Shelf Mounting",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 95,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Wall-mount a TV or up to three shelves, hardware included."
+    },
+    {
+     "title": "Drywall Patch & Paint",
+     "durationMinutes": 90,
+     "price": {
+      "display": "from",
+      "amount": 120,
+      "currency": "USD"
+     },
+     "bookingMode": "request",
+     "description": "Patch small holes and touch up paint."
+    },
+    {
+     "title": "Odd Jobs (per hour)",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 65,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "A list of small repairs \u2014 door handles, caulking, curtain rods and more."
+    }
+   ],
+   "ownerName": "FixIt Owner (dev)"
+  },
+  {
+   "n": 21,
+   "name": "Mr. Dependable Home Repairs",
+   "category": "handyman-services",
+   "city": "Chicago",
+   "region": "IL",
+   "country": "US",
+   "area": "Logan Square",
+   "line1": "877 Station Road",
+   "postalCode": "60602",
+   "lat": 41.8828,
+   "lng": -87.5951,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 35,
+    "postalCodes": [
+     "60601",
+     "60602",
+     "60605",
+     "60607",
+     "60614"
+    ]
+   },
+   "ownerEmail": "mr-dependable-home-repairs@vendors.townant.test",
+   "contactEmail": "hello@mr-dependable-home-repairs.townant.test",
+   "phone": "+1 312 555 0121",
+   "summary": "Chicago handyman service for apartments and houses.",
+   "description": "Chicago handyman service for apartments and houses.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Furniture Assembly",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 70,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Assembly of flat-pack furniture such as beds, desks and shelving."
+    },
+    {
+     "title": "TV & Shelf Mounting",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 95,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Wall-mount a TV or up to three shelves, hardware included."
+    },
+    {
+     "title": "Odd Jobs (per hour)",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 65,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "A list of small repairs \u2014 door handles, caulking, curtain rods and more."
+    }
+   ],
+   "ownerName": "Mr. Owner (dev)"
+  },
+  {
+   "n": 22,
+   "name": "HandyPro Dallas",
+   "category": "handyman-services",
+   "city": "Dallas",
+   "region": "TX",
+   "country": "US",
+   "area": "Knox-Henderson",
+   "line1": "914 Garden Walk",
+   "postalCode": "75204",
+   "lat": 32.8053,
+   "lng": -96.838,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 40,
+    "postalCodes": [
+     "75201",
+     "75202",
+     "75204",
+     "75206",
+     "75219"
+    ]
+   },
+   "ownerEmail": "handypro-dallas@vendors.townant.test",
+   "contactEmail": "hello@handypro-dallas.townant.test",
+   "phone": "+1 214 555 0122",
+   "summary": "Quick, tidy repairs and installations for Dallas homes.",
+   "description": "Quick, tidy repairs and installations for Dallas homes.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Furniture Assembly",
+     "durationMinutes": 60,
+     "price": {
+      "display": "from",
+      "amount": 70,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Assembly of flat-pack furniture such as beds, desks and shelving."
+    },
+    {
+     "title": "TV & Shelf Mounting",
+     "durationMinutes": 60,
+     "price": {
+      "display": "fixed",
+      "amount": 95,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Wall-mount a TV or up to three shelves, hardware included."
+    },
+    {
+     "title": "Drywall Patch & Paint",
+     "durationMinutes": 90,
+     "price": {
+      "display": "from",
+      "amount": 120,
+      "currency": "USD"
+     },
+     "bookingMode": "request",
+     "description": "Patch small holes and touch up paint."
+    }
+   ],
+   "ownerName": "HandyPro Owner (dev)"
+  },
+  {
+   "n": 23,
+   "name": "SwiftMove Austin",
+   "category": "moving-services",
+   "city": "Austin",
+   "region": "TX",
+   "country": "US",
+   "area": "North Burnet",
+   "line1": "951 Mill Street",
+   "postalCode": "78704",
+   "lat": 30.2038,
+   "lng": -97.7288,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 60,
+    "postalCodes": [
+     "78701",
+     "78702",
+     "78703",
+     "78704",
+     "78705"
+    ]
+   },
+   "ownerEmail": "swiftmove-austin@vendors.townant.test",
+   "contactEmail": "hello@swiftmove-austin.townant.test",
+   "phone": "+1 512 555 0123",
+   "summary": "Local movers for apartments and small homes, plus packing help.",
+   "description": "Local movers for apartments and small homes, plus packing help.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Small Move (2 movers)",
+     "durationMinutes": 180,
+     "price": {
+      "display": "from",
+      "amount": 320,
+      "currency": "USD"
+     },
+     "bookingMode": "request",
+     "description": "Two movers and a truck for studio and 1-bedroom moves."
+    },
+    {
+     "title": "Packing Help",
+     "durationMinutes": 120,
+     "price": {
+      "display": "from",
+      "amount": 180,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Professional packing of kitchen, books and fragile items."
+    },
+    {
+     "title": "Furniture Delivery",
+     "durationMinutes": 90,
+     "price": {
+      "display": "from",
+      "amount": 120,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Pick-up and delivery of single large items within the city."
+    }
+   ],
+   "ownerName": "SwiftMove Owner (dev)"
+  },
+  {
+   "n": 24,
+   "name": "Lakefront Movers",
+   "category": "moving-services",
+   "city": "Chicago",
+   "region": "IL",
+   "country": "US",
+   "area": "South Loop",
+   "line1": "988 Market Way",
+   "postalCode": "60614",
+   "lat": 41.8955,
+   "lng": -87.6199,
+   "serviceMode": "mobile",
+   "serviceArea": {
+    "radiusKm": 50,
+    "postalCodes": [
+     "60601",
+     "60602",
+     "60605",
+     "60607",
+     "60614"
+    ]
+   },
+   "ownerEmail": "lakefront-movers@vendors.townant.test",
+   "contactEmail": "hello@lakefront-movers.townant.test",
+   "phone": "+1 312 555 0124",
+   "summary": "Careful local moves and furniture delivery across Chicago.",
+   "description": "Careful local moves and furniture delivery across Chicago.\n\nBook online through TownAnt and pay the business directly. (TownAnt development test listing \u2014 not a real business.)",
+   "services": [
+    {
+     "title": "Small Move (2 movers)",
+     "durationMinutes": 180,
+     "price": {
+      "display": "from",
+      "amount": 320,
+      "currency": "USD"
+     },
+     "bookingMode": "request",
+     "description": "Two movers and a truck for studio and 1-bedroom moves."
+    },
+    {
+     "title": "Packing Help",
+     "durationMinutes": 120,
+     "price": {
+      "display": "from",
+      "amount": 180,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Professional packing of kitchen, books and fragile items."
+    },
+    {
+     "title": "Furniture Delivery",
+     "durationMinutes": 90,
+     "price": {
+      "display": "from",
+      "amount": 120,
+      "currency": "USD"
+     },
+     "bookingMode": "instant",
+     "description": "Pick-up and delivery of single large items within the city."
+    }
+   ],
+   "ownerName": "Lakefront Owner (dev)"
+  }
+ ],
+ "customers": [
+  {
+   "key": "jordan",
+   "email": "jordan.lee@customers.townant.test",
+   "name": "Jordan Lee",
+   "phone": "+15125550191",
+   "signUpWith": "email"
+  },
+  {
+   "key": "priya",
+   "email": "priya.nair@customers.townant.test",
+   "name": "Priya Nair",
+   "phone": "+12145550192",
+   "signUpWith": "email"
+  },
+  {
+   "key": "sam",
+   "email": "sam.carter@customers.townant.test",
+   "name": "Sam Carter",
+   "phone": "+13125550193",
+   "signUpWith": "email"
+  },
+  {
+   "key": "elena",
+   "email": "elena.torres@customers.townant.test",
+   "name": "Elena Torres",
+   "phone": "+15125550194",
+   "signUpWith": "email"
+  },
+  {
+   "key": "chris",
+   "phone": "+15125550190",
+   "name": "Chris Morgan",
+   "email": "chris.morgan@customers.townant.test",
+   "signUpWith": "whatsapp"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+# Security headers for static hosts that read _headers (Netlify, Cloudflare Pages).
+# Other hosts/CDNs: configure equivalent headers. Adjust connect-src if the API is on another origin.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://res.cloudinary.com; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), payment=(), usb=(), geolocation=(self), microphone=(self)
+  Cross-Origin-Opener-Policy: same-origin
+
+/business/setup*
+  Referrer-Policy: no-referrer
+/business/reset-password*
+  Referrer-Policy: no-referrer
+/admin/setup*
+  Referrer-Policy: no-referrer

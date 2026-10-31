@@ -1,0 +1,11 @@
+{
+  "name": "@townant/e2e",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "smoke": "node web-smoke.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}

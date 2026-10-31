@@ -1,0 +1,164 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/inter';
+/* True Inter italics for supporting subtitles (loaded only when italic text is on the page). */
+@import '@fontsource-variable/inter/wght-italic.css';
+@import '@fontsource-variable/manrope';
+
+/* TownAnt design tokens. Mirrors packages/shared/src/tokens.js (used by the mobile app). */
+@theme {
+  --color-navy: #14243a;
+  --color-navy-800: #1b2f4a;
+  --color-navy-700: #263445;
+  /* Super Admin console. Dark slate navigation (sidebar + header) around a light content area. */
+  --color-navy-900: #0d1a2b;
+  --color-console: #f5f7fa;
+  --color-admin-side: #303a46;
+  --color-admin-side-hover: #3a4552;
+  --color-admin-head: #3b4550;
+  --color-admin-line: rgb(255 255 255 / 0.08);
+  --color-admin-ink: #f5f7fa;
+  /* Muted text/icons on slate: muted 6.1:1 / 5.2:1 and faint 5.0:1 / 4.2:1 (sidebar / header). Faint is for
+     group labels and icons in the sidebar; the header uses it only for decorative separators. */
+  --color-admin-muted: #b4bec9;
+  --color-admin-faint: #a1acb9;
+  --color-teal: #147d73;
+  --color-teal-700: #0f655d;
+  --color-teal-300: #6cc3b8;
+  --color-teal-100: #cfe7e3;
+  --color-teal-50: #e7f3f1;
+  --color-amber: #f5a623;
+  --color-amber-50: #fef5e4;
+  --color-amber-text: #7a4f00;
+  --color-cloud: #f5f7fa;
+  --color-slate: #263445;
+  --color-muted: #5b6878;
+  --color-subtle: #8a95a3;
+  --color-line: #e3e8ef;
+  --color-line-strong: #cdd5df;
+  --color-danger: #b42318;
+  --color-danger-50: #fdecea;
+  --color-success: #0f7b4a;
+  --color-success-50: #e8f5ee;
+  --color-info: #2a5c99;
+  --color-info-50: #ebf2fb;
+
+  /* Two-family system: Inter for interface and body text, Manrope for page, section and hero
+     headings (h1/h2 and .font-heading). Both are variable fonts, one latin file each in practice. */
+  --font-sans: 'Inter Variable', 'Inter Fallback', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-heading: 'Manrope Variable', 'Manrope Fallback', 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+
+  /* Type scale: page title / section heading / card title / body / secondary / caption. */
+  --text-display: 2.75rem;
+  --text-display--line-height: 1.1;
+  --text-display--letter-spacing: -0.025em;
+  --text-title: 1.625rem;
+  --text-title--line-height: 2rem;
+  --text-title--letter-spacing: -0.015em;
+  --text-heading: 1.25rem;
+  --text-heading--line-height: 1.625rem;
+  --text-card: 1rem;
+  --text-card--line-height: 1.375rem;
+  --text-body: 0.9375rem;
+  --text-body--line-height: 1.375rem;
+  --text-secondary: 0.8125rem;
+  --text-secondary--line-height: 1.125rem;
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1rem;
+
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-card: 14px;
+  --radius-xl: 20px;
+
+  --shadow-card: 0 1px 2px rgb(20 36 58 / 0.05), 0 1px 3px rgb(20 36 58 / 0.04);
+  --shadow-raised: 0 4px 12px -2px rgb(20 36 58 / 0.08), 0 2px 4px -2px rgb(20 36 58 / 0.05);
+  --shadow-pop: 0 16px 40px -12px rgb(20 36 58 / 0.25), 0 4px 10px -4px rgb(20 36 58 / 0.08);
+  --shadow-focus: 0 0 0 3px rgb(20 125 115 / 0.22);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Supporting subtitles under section and page headings: Inter italic, muted. Used selectively —
+   never for body copy, primary headings, labels or buttons. */
+@utility subtitle {
+  font-family: var(--font-sans);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--color-muted);
+}
+
+/* Page gutter shared by the header, footer and public pages. */
+@utility gutter {
+  padding-inline: 1rem;
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+  @media (width >= 64rem) {
+    padding-inline: 2rem;
+  }
+}
+
+/* Metric-matched local fallbacks keep text from jumping when the web fonts swap in. */
+@font-face {
+  font-family: 'Inter Fallback';
+  src: local('Arial');
+  size-adjust: 107%;
+  ascent-override: 90%;
+  descent-override: 22.4%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: 'Manrope Fallback';
+  src: local('Arial');
+  size-adjust: 104%;
+  ascent-override: 102%;
+  descent-override: 28.6%;
+  line-gap-override: 0%;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  h1,
+  h2,
+  .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.02em;
+  }
+  body {
+    @apply bg-cloud text-body text-slate antialiased;
+    font-family: var(--font-sans);
+    font-feature-settings: 'cv11', 'ss01';
+  }
+  /* Dates, times and counts line up in columns. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-teal);
+    outline-offset: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #eceff3 25%, #f5f7fa 50%, #eceff3 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}

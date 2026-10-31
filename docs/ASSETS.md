@@ -1,0 +1,15 @@
+# Third-party assets
+
+| Asset | Files | Source | License |
+| --- | --- | --- | --- |
+| Homepage hero photograph — "Young woman using smartphone on sofa" by Vitaly Gariev (@silverkblack) | `apps/mobile/assets/hero.jpg`; web renditions `apps/web/public/images/hero/sofa-phone-{640,1000}.jpg` (JPEG q78, made with `sips` from the same file), shown in the homepage hero until a Super Admin publishes their own image | https://unsplash.com/photos/young-woman-using-smartphone-on-sofa-Lc7jhseTes4 | [Unsplash License](https://unsplash.com/license): free commercial use, no attribution required (credited here anyway). Not Unsplash+. Verified on the photo page on 10/29/2026. |
+| Mobile app hero cut-out — the same photograph by Vitaly Gariev with the background removed | `apps/mobile/assets/hero-customer.webp` (760 px, WebP with alpha) | Derived from `apps/mobile/assets/hero.jpg` (https://unsplash.com/photos/young-woman-using-smartphone-on-sofa-Lc7jhseTes4) on 10/30/2026 with the open-source `rembg` tool (model `u2net_human_seg`), then edge-cleaned (halo removed, 2 px erosion, 0.8 px feather) | Unsplash License (modification permitted), as the source photo |
+| “For local businesses” photograph — "Woman paying at shop counter" by Christiann Koepke (@christiannkoepke) | `apps/web/public/images/vendor/shop-counter-{800,1400,2200}.webp` | https://unsplash.com/photos/woman-paying-at-shop-counter-dQyS2pMYtok | [Unsplash License](https://unsplash.com/license): free commercial use, no attribution required (credited here anyway). Not Unsplash+. Verified on the photo page on 10/29/2026. |
+| Mobile app screenshots (TownAnt's own UI) | `apps/web/public/images/app/{home,categories}.jpg` | Captured from `apps/mobile` in Expo Go on an Android emulator (Pixel 8a) on 10/29/2026, against a database with only the starter categories (no listings) | Own work |
+| "Download on the App Store" badge (official artwork) | `apps/web/public/images/badges/app-store.svg` | https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg | Apple App Store marketing guidelines: unmodified, only linking to the published app. Rendered only when `VITE_APP_STORE_URL` is set (otherwise a text “Coming soon” note, no badge). |
+| "Get it on Google Play" badge (official artwork) | `apps/web/public/images/badges/google-play.png` | https://play.google.com/intl/en_us/badges/ | Google Play badge guidelines: unmodified, only linking to the published listing. Rendered only when `VITE_PLAY_STORE_URL` is set (otherwise a text “Coming soon” note, no badge). |
+| Interface icons | `lucide-react` (bundled) | https://lucide.dev | ISC License |
+| Inter typeface (UI and body text) | `@fontsource-variable/inter` (bundled) | https://rsms.me/inter | SIL Open Font License 1.1 |
+| Manrope typeface (headings) | `@fontsource-variable/manrope` 5.3.0 (bundled) | https://github.com/sharanda/manrope | SIL Open Font License 1.1 |
+
+Renditions were produced with Unsplash's image CDN parameters (WebP, quality 72; mobile crops use a focal point on the subject) and are served from our own origin so the CSP can stay `img-src 'self'`.
